@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="stylesheet" href="./css/reset.css" />
+	<link rel="stylesheet" href="./css/layout.css" />
+	<link rel="stylesheet" href="./css/style.css" />
+	<!-- <link rel="stylesheet" href="./vendor/fontawesome/css/all.min.css" /> -->
+
+	<script src="https://use.fontawesome.com/88925caf5c.js"></script>
+
+	<title>FOOSESHOES</title>
+</head>
+
+<body>
+	<div class="main-container">
+		<!-- BEGIN::header -->
+		<div class="header-wrapper">
+			<!-- BEGIN::topbar -->
+			<div class="topbar-wrapper">
+				<div class="section topbar clearfix">
+					<!-- shows in mobile version when click on search icon on removal of hidden class -->
+					<!-- BEGIN:: search-input -->
+					<div class="hidden topbar__search-bar clearfix">
+						<div class="form-input">
+							<input type="text" name="search" placeholder="Enter product that you want to search"
+								class="" autofocus />
+						</div>
+						<div class="search-icon">
+							<button>
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</button>
+						</div>
+					</div>
+					<!-- END:: search-input -->
+					<div class="logo float-left">
+						<a href="index.html" title="fooseshoes">
+							<img src="./images/logo.png" alt="FOOSESHOES" />
+						</a>
+					</div>
+					<div class="topbar__login float-right">
+						<a href="#" title="login"> LOGIN <span> or REGISTER </span> </a>
+					</div>
+					<div class="topbar__search float-right">
+						<button class="topbar__search-icon">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+			<!-- END::topbar -->
+			<!-- BEGIN::navbar -->
+			<div class="navbar-wrapper">
+				<div class="section navbar clearfix">
+					<div class="navbar__item clearfix">
+						<div class="float-left navbar__hamburger">
+							<button class="hamburger-menu">
+								<i class="fa fa-bars"></i>
+							</button>
+						</div>
+						<ul class="navbar__icons unstyled clearfix">
+							<li class="navbar__icon float-right">
+								<div class="navbar__icon-item">
+									<a href="#" title="shopping-cart">
+										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+										<span
+											class="notification__count-button notification__count-button--grey">30</span>
+									</a>
+								</div>
+							</li>
+							<li class="navbar__icon float-right">
+								<div class="navbar__icon-item">
+									<a href="#" title="fav">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<span
+											class="notification__count-button notification__count-button--green">30</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- shows when removal of hidden class by click on hamburger menu -->
+					<!-- BEGIN:: navbar-menu -->
+					<ul class="hidden lg-inline navbar-left navbar__menu unstyled">
+						<li class="navbar__menu-item navbar__menu-item--active">
+							<a href="#" title="home">
+								Home
+							</a>
+						</li>
+						<li class="navbar__menu-item">
+							<a href="#" title="products">
+								Products
+							</a>
+						</li>
+						<li class="navbar__menu-item">
+							<a href="#" title="about">
+								About
+							</a>
+						</li>
+						<li class="navbar__menu-item">
+							<a href="#" title="pages">
+								Pages
+							</a>
+						</li>
+						<li class="navbar__menu-item">
+							<a href="#" title="blog">
+								Blog
+							</a>
+						</li>
+						<li class="navbar__menu-item">
+							<a href="#" title="contact">
+								Contact
+							</a>
+						</li>
+					</ul>
+					<!-- END:: navbar-menu -->
+				</div>
+			</div>
+			<!-- END::navbar -->
+		</div>
+		<!-- END::header -->
+
+		<!-- BEGIN::content -->
+		<div class="content-wrapper">
+			<!-- BEGIN::slider -->
+			<div class="slider-wrapper">
+				<div class="slider">
+					<div class="slider__image">
+						<img src="./images/slider1.jpg" alt="Slider Image" />
+					</div>
+					<div class="section slider__content-container clearfix">
+						<div class="slider-content">
+							<div class="row">
+								<div class="square-button square-button--green">
+									$145.99
+								</div>
+							</div>
+							<div class="row">
+								<div class="product__heading">
+									Pink Shoes <span>2013 Collection</span>
+								</div>
+								<div class="hidden md-block product__description">
+									Nunc non fermentum nunc. Sed ut ante eget leo tempor
+									consequat sit amet eu orci. Donec dignissim dolor eget..
+								</div>
+							</div>
+							<div class="row">
+								<ul class="product__actions unstyled clearfix">
+									<li class="product__actions-item">
+										<a href="#">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li class="product__actions-item">
+										<a href="#">
+											<i class="fa fa-star" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li class="product__actions-item">
+										<a href="#">
+											<i class="fa fa-share" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li class="product__actions-item text-green">
+										<a href="#">
+											<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slider-navigation">
+					<div class="section">
+						<div class="slider-row slider-navigator">
+							<ul class="unstyled slider-section slider-navigator__indicator clearfix">
+								<li class="navigator__button navigator__button--active float-left"></li>
+								<li class="navigator__separator float-left"></li>
+								<li class="navigator__button float-left"></li>
+								<li class="navigator__separator float-left"></li>
+								<li class="navigator__button float-left"></li>
+								<li class="navigator__separator float-left"></li>
+								<li class="navigator__button float-left"></li>
+								<li class="navigator__separator float-left"></li>
+								<li class="navigator__button float-left"></li>
+							</ul>
+						</div>
+						<div class="hidden md-block slider-row slider-navigator__description">
+							<ul class="unstyled slider-section slider-navigator__description-items clearfix">
+								<li class="description-items-list description-items-list--active float-left">
+									<a href="#" title="Pink Shoes">
+										<div class="row list-heading">
+											Pink Shoes
+										</div>
+										<div class="row list-description">
+											Now at $145,99
+										</div>
+									</a>
+								</li>
+								<li class="description-items-list float-left">
+									<a href="#" title="slider thumb">
+										<div class="row list-heading">
+											Anna Field
+										</div>
+										<div class="row list-description">
+											Limited Edition
+										</div>
+									</a>
+								</li>
+								<li class="description-items-list float-left">
+									<a href="#" title="slider thumb">
+										<div class="row list-heading">
+											Prada
+										</div>
+										<div class="row list-description">
+											Summer is coming
+										</div>
+									</a>
+								</li>
+								<li class="description-items-list float-left">
+									<a href="#" title="slider thumb">
+										<div class="row list-heading">
+											Casadei
+										</div>
+										<div class="row list-description">
+											All Colors available
+										</div>
+									</a>
+								</li>
+								<li class="description-items-list float-left">
+									<a href="#" title="slider thumb">
+										<div class="row list-heading">
+											Mellow Yellow
+										</div>
+										<div class="row list-description">
+											Free delivery
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END::slider -->
+			<!-- BEGIN::banner -->
+			<div class="banner-wrapper">
+				<div class="section banner">
+					<ul class="row unstyled banner__items-list clearfix">
+						<li class="banner__item float-left">
+							<a href="#" class="banner__link" title="banner">
+								<img class="banner__image" src="./images/on-sale.png" alt="" />
+								<div class="centered banner__button">
+									ON SALE
+								</div>
+							</a>
+						</li>
+						<li class="banner__item float-left">
+							<a href="#" class="banner__link" title="banner">
+								<img class="banner__image" src="./images/special-offers.png" alt="" />
+								<div class="centered banner__button">
+									SPECIAL OFFERS
+								</div>
+							</a>
+						</li>
+						<li class="banner__item float-left">
+							<a href="#" class="banner__link" title="banner">
+								<img class="banner__image" src="./images/must-have.png" alt="" />
+								<div class="centered banner__button">
+									MUST HAVE
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- END::banner -->
+			<!-- BEGIN::main-content -->
+			<div class="main-content-wrapper">
+				<div class="section main-content">
+					<!-- BEGIN:: new-arrivals -->
+					<div class="row product-list__top product-list__container">
+						<div class="product-list__heading clearfix">
+							<div class="product-list__title row md-float-left">
+								New arrivals on FooseShoes
+							</div>
+							<a class="product-list__button md-float-right row" href="#" title="Show All">
+								Show All
+							</a>
+						</div>
+						<div class="product-container">
+							<ul class="unstyled product-list clearfix">
+								<li class="product-item">
+									<a class="product-card" href="#" title="product">
+										<div class="product-card__image">
+											<img src="./images/product1.png" alt="" />
+										</div>
+										<div
+											class="product-card__price product-card__button product-card__button--green">
+											<span class="button-text">
+												$145,99
+											</span>
+										</div>
+										<div class="product-card__bottom">
+											Even&Odd
+										</div>
+									</a>
+								</li>
+								<li class="product-item">
+									<a class="product-card" href="#" title="product">
+										<div class="product-card__image">
+											<img src="./images/product2.png" alt="" />
+										</div>
+										<div
+											class="product-card__notify product-card__button product-card__button--black">
+											<span class="button-text">
+												ON SALE!
+											</span>
+										</div>
+										<div
+											class="product-card__price product-card__button product-card__button--green">
+											<span class="button-text">
+												$145,99
+											</span>
+										</div>
+										<div class="product-card__bottom">
+											Even&Odd
+										</div>
+									</a>
+								</li>
+								<li class="product-item">
+									<a class="product-card" href="#" title="product">
+										<div class="product-card__image">
+											<img src="./images/product3.png" alt="" />
+										</div>
+										<div
+											class="product-card__price product-card__button product-card__button--green">
+											<span class="button-text">
+												$145,99
+											</span>
+										</div>
+										<div class="product-card__bottom">
+											Buffalo Decollete
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- END:: new-arrivals -->
+					<!-- BEGIN:: best-sellers -->
+					<div class="row product-list__bottom product-list__container">
+						<div class="product-list__heading clearfix">
+							<div class="float-left product-list__title row">
+								Best sellers of the month
+							</div>
+							<a class="float-right product-list__button float-right row" href="#" title="Show All">
+								Show All
+							</a>
+						</div>
+						<div class="product-container">
+							<ul class="unstyled product-list clearfix">
+								<li class="product-item">
+									<a class="product-card" href="#" title="product">
+										<div class="product-card__image">
+											<img src="./images/product4.png" alt="" />
+										</div>
+										<div
+											class="product-card__price product-card__button product-card__button--green">
+											<span class="button-text">
+												$145,99
+											</span>
+										</div>
+										<div class="product-card__bottom">
+											Even&Odd
+										</div>
+									</a>
+								</li>
+								<li class="product-item">
+									<a class="product-card" href="#" title="product">
+										<div class="product-card__image">
+											<img src="./images/product5.png" alt="" />
+										</div>
+										<div
+											class="product-card__price product-card__button product-card__button--green">
+											<span class="button-text">
+												$145,99
+											</span>
+										</div>
+										<div class="product-card__bottom">
+											Even&Odd
+										</div>
+									</a>
+								</li>
+								<li class="product-item">
+									<a class="product-card" href="#" title="product">
+										<div class="product-card__image">
+											<img src="./images/product6.png" alt="" />
+										</div>
+										<div
+											class="product-card__notify product-card__button product-card__button--orange">
+											<span class="button-text">
+												OUT OF STOCK
+											</span>
+										</div>
+										<div
+											class="product-card__price product-card__button product-card__button--green">
+											<span class="button-text">
+												$145,99
+											</span>
+										</div>
+										<div class="product-card__bottom">
+											Buffalo Decollete
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- END:: best-sellers -->
+					<!-- BEGIN:: attributes -->
+					<div class="row attribute__container">
+						<div class="row attribute">
+							<ul class="unstyled attribute-list">
+								<li class="attribute__item feature">
+									<div class="attribute-card">
+										<div class="attribute-card__heading">
+											FREE SHIPPING
+										</div>
+										<div class="attribute-card__description">
+											<p>
+												Vivamus metus turpis, bibendum vitae euismod vel,
+												vdivputate vel nibh. Class aptent taciti sociosqu ad
+												litora torquent per conubia nostra, per inceptos
+												himenaeos. Donec erat sem,
+											</p>
+										</div>
+									</div>
+								</li>
+								<li class="attribute__item feature">
+									<div class="attribute-card">
+										<div class="attribute-card__heading">
+											TESTIMONIALS
+										</div>
+										<div class="attribute-card__description">
+											<p>
+												vel, vulputate vel nibh. Class aptent taciti sociosqu
+												ad litora torquent per conubia nostra, per inceptos
+												himenaeos. Donec erat sem, vehicula id dictum sit
+												<span class="more">[...]</span>
+												<span class="said-by row">- John Doe -</span>
+											</p>
+										</div>
+									</div>
+								</li>
+								<li class="attribute__item blog-wrapper">
+									<div class="attribute-card">
+										<div class="attribute-card__heading">
+											BLOG NEWS
+										</div>
+										<div class="attribute-card__description">
+											<div class="blog__container">
+												<div class="blog__content">
+													<ul class="unstyled blog__items-list">
+														<li class="blog__item clearfix">
+															<a href="#" title="link to blog"
+																class="blog vertical-center-parent clearfix">
+																<div
+																	class="blog__date square-button square-button--small square-button--green vertical-center">
+																	APR <span class="row">01</span>
+																</div>
+																<div class="blog__description">
+																	<div class="blog__title">
+																		Nice & clean. The best for you blog!
+																	</div>
+																	<div class="blog__short-preview">
+																		Vivamus metus turpis, bibendum vitae
+																		euismod vel, vulputate
+																	</div>
+																</div>
+															</a>
+														</li>
+														<li class="blog__item clearfix">
+															<a href="#" title="link to blog"
+																class="blog vertical-center-parent clearfix">
+																<div
+																	class="blog__date square-button square-button--small square-button--green vertical-center">
+																	APR <span class="row">01</span>
+																</div>
+																<div class="blog__description vertical-center">
+																	<div class="blog__title">
+																		What an Ecommerce theme!
+																	</div>
+																	<div class="blog__short-preview">
+																		Vivamus metus turpis, bibendum vitae
+																	</div>
+																</div>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- END:: attributes -->
+				</div>
+			</div>
+			<!-- END::main-content -->
+			<!-- BEGIN::prefooter -->
+			<div class="prefooter-wrapper">
+				<div class="section prefooter__top-wrapper">
+					<div class="prefooter__top">
+						<ul class="unstyled prefooter__items-list clearfix">
+							<li class="prefooter__item">
+								<div class="prefooter__card">
+									<div class="card__heading">
+										TEXT WIDGET
+									</div>
+									<div class="card__description">
+										<p>
+											Donec sed odio dui. Nulla vitae elit libero, a pharetra
+											augue. Nullam id dolor id nibh ultricies vehicula ut id
+											elit. Integer posuere erat a ante venenatis dapibus
+											posuere velit aliquet. Duis mollis, est non commodo
+											luctus, nisi erat porttitor ligula, eget lacinia odio
+											sem nec elit.
+										</p>
+									</div>
+								</div>
+							</li>
+							<li class="prefooter__item">
+								<div class="prefooter__card">
+									<div class="card__heading">
+										TEXT WIDGET
+									</div>
+									<div class="card__description">
+										<ul class="unstyled tweet-list">
+											<li class="tweet-card">
+												<div class="tweet">
+													<a href="#" class="twitter-username" title="@ericafustero">
+														@ericafustero
+													</a>
+													Why thank you. Your work looks awesome by the way!
+													<a href="#" class="twitter-username"
+														title="@treemelody"></a>@treemelody
+												</div>
+												<div class="tweet-time">
+													19 days ago
+												</div>
+											</li>
+											<li class="tweet-card">
+												<div class="tweet">
+													<a href="#" class="twitter-username" title="@roymarvelous">
+														@roymarvelous
+													</a>
+													You can seek a refund through TF if it is not as
+													advertised - but it is :)
+												</div>
+												<div class="tweet-time">
+													21 days ago
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li class="prefooter__item">
+								<div class="prefooter__card">
+									<div class="card__heading">
+										FLICKR WIDGET
+									</div>
+									<div class="card__description">
+										<ul class="unstyled gallery clearfix">
+											<li class="float-left gallery__photo">
+												<a href="#" title="flickr image">
+													<img src="./images/f_1.jpg" alt="" />
+												</a>
+											</li>
+											<li class="float-left gallery__photo">
+												<a href="#" title="flickr image">
+													<img src="./images/f_2.jpg" alt="" />
+												</a>
+											</li>
+											<li class="float-left gallery__photo">
+												<a href="#" title="flickr image">
+													<img src="./images/f_3.jpg" alt="" />
+												</a>
+											</li>
+											<li class="float-left gallery__photo">
+												<a href="#" title="flickr image">
+													<img src="./images/f_4.jpg" alt="" />
+												</a>
+											</li>
+											<li class="float-left gallery__photo">
+												<a href="#" title="flickr image">
+													<img src="./images/f_5.jpg" alt="" />
+												</a>
+											</li>
+											<li class="float-left gallery__photo">
+												<a href="#" title="flickr image">
+													<img src="./images/f_6.jpg" alt="" />
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="prefooter__bottom-wrapper">
+					<div class="section prefooter__bottom clearfix">
+						<div class="float-left newsletter-input-bar clearfix">
+							<div class="form-input clearfix">
+								<input type="text" name="search" class="" placeholder="Enter email for newsletter" />
+							</div>
+							<div class="right-arrow-icon">
+								<i class="fa fa-arrow-right" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="float-right social-links">
+							<ul class="unstyled social-links-items clearfix">
+								<li class="social-links-item">
+									<a href="#" title="social-links" class="social-icon">
+										<i class="fa fa-facebook-square" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li class="social-links-item">
+									<a href="#" title="social-links" class="social-icon">
+										<i class="fa fa-twitter-square" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li class="social-links-item">
+									<a href="#" title="social-links" class="social-icon">
+										<i class="fa fa-google-plus-square" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li class="social-links-item">
+									<a href="#" title="social-links" class="social-icon">
+										<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li class="social-links-item">
+									<a href="#" title="social-links" class="social-icon">
+										<i class="fa fa-facebook-square" aria-hidden="true"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END::prefooter -->
+		</div>
+		<!-- END::content -->
+
+		<!-- BEGIN::footer	 -->
+		<div class="footer-wrapper">
+			<div class="section footer clearfix">
+				<div class="footer__quick-links clearfix">
+					<ul class="unstyled quick-links">
+						<li class="link">
+							<a href="#" title="home">
+								Home
+							</a>
+						</li>
+						<li class="link">
+							<a href="#" title="Support">
+								Support
+							</a>
+						</li>
+						<li class="link">
+							<a href="#" title="Conditions">
+								Terms and Conditions
+							</a>
+						</li>
+						<li class="link">
+							<a href="#" title="Faqs">
+								Faqs
+							</a>
+						</li>
+						<li class="link">
+							<a href="#" title="us">
+								Contact us
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-description">
+					<div class="row">
+						Copyright © Fooseshoes 2013.
+					</div>
+					<div class="row">Designed by EnzoLiVolti.</div>
+				</div>
+			</div>
+		</div>
+		<!-- END::footer	 -->
+	</div>
+</body>
+
+</html>

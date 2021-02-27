@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	font-family: "Aller", "sans-serif";
+}
+
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	max-width: 100%;
+}
+
+button {
+	font-size: inherit;
+	border: 0;
+	padding: 0;
+	color: inherit;
+	background-color: inherit;
+	cursor: pointer;
+}
+
+input {
+	font: inherit;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: table;
+}
